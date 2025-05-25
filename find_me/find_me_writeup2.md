@@ -27,7 +27,7 @@ Looking at the three clues, I needed to find something that connects all three c
 ### Step 1: Research Phase
 I started by searching for combinations of these terms to see what would come up. A Google search for "Bot Memes Tropical" yielded interesting results.
 
-!1.png
+![Google Search Results](1.png)
 
 The search revealed two potential candidates:
 - **Tropical Bot** - A multifunctional Discord bot
@@ -52,14 +52,14 @@ Key details discovered:
 ### Step 3: Finding the Creator
 I investigated who created this bot to understand more about it.
 
-![Creator Profile](image3.png)
+![Creator Profile](3.png)
 
 Found the creator's Discord profile:
 - Username: **COn4n** (y.abderrahmane)
 - Developer with skills in JavaScript, TypeScript, Python
 - Joined Discord 7 years ago
 
-![Bot Creators](image4.png)
+![Bot Creators](4.png)
 
 The bot has multiple creators:
 - b2raa
@@ -69,7 +69,7 @@ The bot has multiple creators:
 ### Step 4: Locating the Discord Server
 Every Discord bot typically has a support server. I found references to the bot's community.
 
-![Bot Information](image5.png)
+![Bot Information](5.png)
 
 Key information discovered:
 - Server count: 187 servers
@@ -79,7 +79,7 @@ Key information discovered:
 ### Step 5: Accessing the Support Server
 I joined the "Memes Support" Discord server and explored the channels.
 
-![Discord Server Solution](image6.png)
+![Discord Server Solution](6.png)
 
 **SUCCESS!** In the #soon channel, I found the welcome message containing the flag:
 
