@@ -36,7 +36,7 @@ The search revealed two potential candidates:
 ### Step 2: Investigating the Memes Bot
 The "Memes bot" seemed like the most promising lead since it directly matched two of our clues. I found it on Discord bot directories.
 
-![Discord Bot Directory](image2.png)
+![Discord Bot Directory](2.png)
 
 Perfect match! The "Memes bot" had:
 - ✅ **Bot** - It's a Discord bot
