@@ -1,0 +1,61 @@
+# CTF Write-Up: Find Me Challenge
+
+**Author:** COn4n
+**Category:** OSINT
+**Date:** May 25, 2025
+**Challenge Description:** The "Find Me" challenge presents a riddle with three clues: "Bot,"
+"Memes," and "Tropical." The goal is to identify the target based on these clues, supported
+by six images provided as hints. Let's break it down step by step.
+**Clue Analysis**
+
+1. **Bot** : This suggests we are looking for a Discord bot, as bots are commonly used on
+    this platform for various functionalities.
+2. **Memes** : Indicates the bot is related to memes, likely capable of sharing or managing
+    meme content (videos, pictures, etc.).
+3. **Tropical** : This could imply a theme or name associated with tropical elements, such
+    as pineapples, beaches, or exotic vibes.
+**Image Analysis**
+● **Image 1 (the second bot in the search bar)** : This image shows a list of bots on a
+Discord bot directory, with "Tropical Bot" and "Memes bot" highlighted. The second
+bot in the search results is "Memes bot," which aligns with the "Bot" and "Memes"
+clues.
+● **Image 2 (meme bot with Tropical image)** : This image displays the "Memes bot"
+profile, featuring a pineapple icon and a description mentioning it as the "First Arabic
+bot for memes (videos + pictures)." The tropical theme is evident from the pineapple,
+connecting to the "Tropical" clue.
+
+
+● **Image 3 (Discord profile of the creator, y.abderrahmane)** : This shows the Discord
+profile of "COn4n" (y.abderrahmane), a developer skilled in JavaScript, TypeScript,
+and Python, who created the challenge. This confirms the author's identity but
+doesn't directly point to the target.
+● **Image 4 (y.abderrahmane as the creator)** : This image reinforces that
+y.abderrahmane is one of the creators of the "Memes bot," listed alongside b2raa and
+
+
+tt4k. This ties the creator to the bot.
+● **Image 5 (Discord of the bot)** : This image shows the "Memes Support" Discord
+server. The server is linked to the bot, providing context for its community.
+● **Image 6 (the flag in the Discord bot salon soon)** : This image captures the "#soon"
+channel in the "Memes Support" server, with a message saying "Bienvenue dans
+#soon! Cest le début du salon #soon.
+El-DjazairCTF{Oh_YOU_f0und_MY_mEMes_b0t}." The flag is embedded in this
+message.
+
+
+**Solution Process**
+The clues "Bot," "Memes," and "Tropical" point to a Discord bot focused on memes with a
+tropical theme. Image 1 and Image 2 highlight "Memes bot" and its tropical pineapple icon,
+making it the prime candidate. Image 4 confirms y.abderrahmane's involvement in creating
+this bot. The final piece is Image 6, which contains the flag in the "#soon" channel of the
+"Memes Support" server, directly tied to the bot.
+**Flag**
+The flag extracted from Image 6 is:
+El-DjazairCTF{Oh_YOU_f0und_MY_mEMes_b0t}
+**Conclusion**
+The "Find Me" challenge cleverly uses a combination of bot functionality, thematic hints, and
+Discord server context to guide the solver. The target is the "Memes bot" with a tropical
+theme, and the flag is revealed in the associated Discord server's "#soon" channel. Good
+luck to all future solvers!
+
+
