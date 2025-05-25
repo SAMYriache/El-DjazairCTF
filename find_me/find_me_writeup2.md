@@ -27,7 +27,7 @@ Looking at the three clues, I needed to find something that connects all three c
 ### Step 1: Research Phase
 I started by searching for combinations of these terms to see what would come up. A Google search for "Bot Memes Tropical" yielded interesting results.
 
-!https://github.com/SAMYriache/El-DjazairCTF/blob/main/find_me/1.png
+!1.png
 
 The search revealed two potential candidates:
 - **Tropical Bot** - A multifunctional Discord bot
