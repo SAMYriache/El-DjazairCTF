@@ -1,7 +1,7 @@
 # The Ouroboros Cipher - CTF Write-up
 
 ## Challenge Description
-**Points:** 1000  
+**Points:** 727  
 **Category:** Crypto  
 **Flag Format:** `El-DjazairCTF{...}`
 
