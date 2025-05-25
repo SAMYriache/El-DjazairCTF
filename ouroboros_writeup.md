@@ -55,6 +55,8 @@ reversed_text = encrypted[::-1]  # "MBOUZASUTPOO"
 
 # Step 2: Apply Vigenère decryption
 decoded = vigenere_decode(reversed_text, key)
+
+print(f"El-Djazair{{{decoded}}}")
 ```
 
 ## Step-by-step Decryption
@@ -76,6 +78,7 @@ decoded = vigenere_decode(reversed_text, key)
 
 ## Final Flag
 `El-DjazairCTF{ANAHOWACHBAB}`
+`El-DjazairCTF{anahowachbab}`
 
 ## Key Takeaways
 - The Ouroboros symbol (serpent eating its tail) was a strong hint for text reversal
